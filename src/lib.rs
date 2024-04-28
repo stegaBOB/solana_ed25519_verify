@@ -64,10 +64,4 @@ mod tests {
         assert!(verify);
         Ok(())
     }
-
-    #[test]
-    fn make_keypair() {
-        let keypair = Keypair::new();
-        println!("{:?}", keypair.to_bytes());
-    }
 }
