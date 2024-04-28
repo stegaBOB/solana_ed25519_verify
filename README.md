@@ -1,4 +1,4 @@
-# Solana ED25519 Signature Verification Helper Functions
+# Solana ED25519 Signature Verification Function
 
 Pretty self-explanatory. Quite a bit more expensive than the precompile program,
 but also quite a bit easier to use with no ix sysvar shenanigans necessary.
