@@ -5,6 +5,7 @@ edition = "2021"
 description = "A helper library for verifying signatures in a solana program without CPI or Precompiles"
 authors = ["Sammy Harris <sammy@stegabob.com>"]
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/stegabob/solana_ed25519_verify"
 
 [dependencies]
 anyhow = "1"
