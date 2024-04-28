@@ -1,0 +1,20 @@
+[package]
+name = "solana_ed25519_verify"
+version = "0.1.0"
+edition = "2021"
+description = "A helper library for verifying signatures in a solana program without CPI or Precompiles"
+authors = ["Sammy Harris <sammy@stegabob.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+anyhow = "1"
+arrayref = "0.3"
+curve25519-dalek = { version = "4" }
+sha2 = "0.10"
+solana-zk-token-sdk = "1.18"
+solana-program = "1.18"
+getrandom = { version = "0.1", features = ["dummy"] }
+
+
+[dev-dependencies]
+solana-sdk = "1.18"
