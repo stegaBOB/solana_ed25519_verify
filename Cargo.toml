@@ -2,7 +2,7 @@
 name = "solana_ed25519_verify"
 version = "0.1.1"
 edition = "2021"
-description = "A helper library for verifying signatures in a Solana program without CPIs or the Ed25519 Precompile program"
+description = "A helper library for verifying signatures in a Solana program without CPIs or the Ed25519 precompile program"
 authors = ["Sammy Harris <sammy@stegabob.com>"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/stegabob/solana_ed25519_verify"
